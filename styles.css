@@ -362,6 +362,7 @@ a {
 
 .pages{
   color: #2c2a2a;
+  height: 100vh;
 }
 
 #title, #subtitle{
