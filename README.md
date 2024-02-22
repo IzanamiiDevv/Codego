@@ -1,3 +1,3 @@
 # Welcome to Codego
-A Simple Documentation About Web Development
-This Porject is my Performace Task in my School We Assign to Make a Documentation WebPage
+
+This project serves as my performance task for school, where I was assigned to create a documentation webpage on web development. The purpose of this documentation is to provide a comprehensive overview of key concepts and practices in web development.
