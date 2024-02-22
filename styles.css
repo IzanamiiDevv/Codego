@@ -7,7 +7,7 @@
   --black-color-light: hsl(220, 24%, 15%);
   --black-color-lighten: hsl(220, 20%, 18%);
   --white-color: #fff;
-  --body-color: hsl(223, 7%, 19%);
+  --body-color: #fff;
 
   --body-font: "Montserrat", sans-serif;
   --normal-font-size: .938rem;
@@ -24,13 +24,13 @@
   padding: 0;
   margin: 0;
   font-style: var(--body-font);
-  color: var(--white-color);
 }
 
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
+  color: var(--white-color);
 }
 
 ul {
@@ -355,6 +355,12 @@ a {
 
 .homepage{
   padding-top: calc(var(--header-height) + 10vh);
+  color: #2c2a2a;
+  position: relative;
+}
+
+.pages{
+  color: #2c2a2a;
 }
 
 #title, #subtitle{
@@ -367,4 +373,13 @@ a {
 #subtitle{
   font-size: medium;
   padding-top: 2rem;
+}
+
+#home-img{
+  position: absolute;
+  left: 50%;
+  height: 500px;
+  width: 500px;
+  top: 20vh;
+  display: inline-block;
 }
