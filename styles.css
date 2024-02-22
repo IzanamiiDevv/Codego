@@ -362,7 +362,8 @@ a {
 
 .pages{
   color: #2c2a2a;
-  height: 90vh;
+  height: 100vh;
+  padding-top: calc(var(--header-height) + 10vh);
 }
 
 #title, #subtitle{
@@ -384,4 +385,9 @@ a {
   width: 500px;
   top: 20vh;
   display: inline-block;
+}
+
+#html-title{
+  font-size: 2rem;
+  padding-left: 2rem;
 }
