@@ -4,4 +4,4 @@ This project serves as my performance task for school, where I was assigned to c
 
 
 ## Tools Used in This Project
-<img src="https://skillicons.dev/icons?i=git,vscode,cs,dotnet" />
+<img src="https://skillicons.dev/icons?i=git,vscode,css,html,sass" />
