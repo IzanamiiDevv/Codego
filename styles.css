@@ -391,3 +391,8 @@ a {
   font-size: 2rem;
   padding-left: 2rem;
 }
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
