@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    height: 75px;
+    background-color: #2c2a2a;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+    margin-bottom: 0px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.homepage{
+  padding-top: calc(3.5rem + 10vh);
+  color: #2c2a2a;
+  position: relative;
+  height: 100vh;
+}
+
+.pages{
+  color: #2c2a2a;
+  height: 100vh;
+  padding-top: calc(3.5rem + 10vh);
+}
+
+#title, #subtitle , form{
+  position: relative;
+  padding-left: 10%;
+  padding-top: 10%;
+  font-size: 2rem;
+}
+
+#subtitle{
+  font-size: medium;
+  padding-top: 2rem;
+}
+
+#home-img{
+  position: absolute;
+  left: 50%;
+  height: 500px;
+  width: 500px;
+  top: 20vh;
+  display: inline-block;
+}
+
+form input {
+    border-style: none;
+    border-radius: 5px;
+}
+
+input {
+    height: 2.5rem;
+    width: 5rem;
+}
+
+form{
+    padding-top: 10px;
+}
+
+#learn{
+    background-color: rgb(184, 96, 184);
+}
