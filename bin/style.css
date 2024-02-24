@@ -5,6 +5,12 @@
     font-family: sans-serif;
 }
 
+body {
+    background-image: url('../assets/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .nav-bar {
     height: 75px;
     background-color: #2c2a2a;
@@ -32,28 +38,28 @@
 }
 
 .homepage{
-  padding-top: calc(3.5rem + 10vh);
-  color: #2c2a2a;
+  padding-top: calc(7.5rem + 20vh);
+  color: whitesmoke;
   position: relative;
   height: 100vh;
 }
 
 .pages{
-  color: #2c2a2a;
+  color: whitesmoke;
   height: 100vh;
-  padding-top: calc(3.5rem + 10vh);
+  padding-top: calc(5rem + 15vh);
 }
 
 #title, #subtitle , form{
   position: relative;
   padding-left: 10%;
-  padding-top: 10%;
+  padding-top: 50px;
   font-size: 2rem;
 }
 
 #subtitle{
   font-size: medium;
-  padding-top: 2rem;
+  padding-top: 0;
 }
 
 #home-img{
