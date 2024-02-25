@@ -14,4 +14,4 @@
 
 
 ## Tools Used in This Project
-<img src="https://skillicons.dev/icons?i=git,vscode,css,html,sass" />
+<img src="https://skillicons.dev/icons?i=git,vscode,css,html,markdown,svg" />
