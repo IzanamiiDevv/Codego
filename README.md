@@ -6,7 +6,6 @@
             The purpose of this documentation is to provide a comprehensive overview of key concepts and practices in web development.
         </p>
     </div>
-
     <div style="float: right; width: 50%;">
         <img src="assets/mainIconsdark.svg" alt="Codego Icon" style="max-width: 100%; height: auto;">
     </div>
