@@ -1,154 +1,43 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="assets/styles/styles.css">
-
-      <title>Codego</title>
-   </head>
-   <header class="header">
-      <nav class="nav container">
-         <div class="nav__data">
-            <a href="#" class="nav__logo">
-               <i class="ri-planet-line"></i> Codego.
-            </a>
-            <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-menu-line nav__burger"></i>
-               <i class="ri-close-line nav__close"></i>
-            </div>
-         </div>
-         <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-               <li><a href="#home" class="nav__link">Home</a></li>
-               <li class="dropdown__item">
-                  <div class="nav__link">
-                     Language <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                  </div>
-
-                  <ul class="dropdown__menu">
-                     <li>
-                        <a href="#language?=html" class="dropdown__link">
-                           HTML
-                        </a>                          
-                     </li>
-
-                     <li>
-                        <a href="#language?=css" class="dropdown__link">
-                           CSS
-                        </a>
-                     </li>
-                     <li>
-                        <a href="#language?=javascript" class="dropdown__link">
-                           JavaScript
-                        </a>
-                     </li>
-                  </ul>
-               </li>
-               <li><a href="https://github.com/IzanamiiDevv/Codego/blob/main/README.md" class="nav__link">About</a></li>
-               <li><a href="https://github.com/IzanamiiDevv" class="nav__link">Credits</a></li>
-
-               <li><a href="https://github.com/IzanamiiDevv?tab=repositories" class="nav__link">Other Projects</a></li>
-            </ul>
-         </div>
-      </nav>
-   </header>
-   <body>
-      <section class="homepage" id="home">
-         <h1 id="title">WELCOME TO CODEGO</h1>
-         <p id="subtitle">This project serves as my performance task for school,<br>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codego</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <video id="blackhole" autoplay loop muted width="100%">
+        <source src="./assets/blackhole.webm" type="video/webm">
+    </video>
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="./assets/logo.png" alt="Wala">
+            <h1>Codego.</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#page?=Home">Home</a>
+            <a href="#page?=Tutorial">Tutorial</a>
+            <a href="https://github.com/IzanamiiDevv/Codego/blob/main/README.md">About</a>
+            <a href="https://github.com/IzanamiiDevv">Credits</a>
+            <a href="https://github.com/IzanamiiDevv?tab=repositories">More Projects</a>
+        </div>
+    </div>
+    <div class="homepage">
+        <a id="title" href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&size=50&pause=1000&color=F7F7F7&random=false&width=515&height=75&lines=WELCOME+TO+CODEGO;Learn+Here+Now!" alt="WELCOME TO CODEGO" /></a>
+        <p id="subtitle">
+            This project serves as my performance task for school,<br>
              where I was assigned to create a documentation webpage on<br>
              web development.The purpose of this documentation<br>
             is to provide a comprehensive overview of key concepts and<br>
-            practices in web development.</p>
-         <img id="home-img" src="assets/home.jpg" alt="Cant Load The Image">
-      </section>
-      <section class="pages" id="language?=html">
-         <h1 id="html-title">HTML Tutorial:</h1>
-         <br>
-         <div class="code-container">
-            <div class="card">
-                <div class="tools">
-                  <div class="circle">
-                    <span class="red box"></span>
-                  </div>
-                  <div class="circle">
-                    <span class="yellow box"></span>
-                  </div>
-                  <div class="circle">
-                    <span class="green box"></span>
-                  </div>
-                </div>
-                <div class="card-content" >
-                  <p>Hello</p>
-                </div>
-            </div>
-         </div>
-      </section>
-      <section class="pages" id="language?=css">
-         <h1 id="html-title">CSS Tutorial:</h1>
-         <br>
-         <br>
-         <br>
-         <section class="query-selector-css">
-            <h1 style="font-size: 1.5rem;">CSS Query Selector</h1>
-            <br>
-            <h1 style="font-size: 1.5rem;">Overview</h1>
-            <p><b>
-               CSS Query Selector is a powerful feature that allows you to select and style HTML elements based on their attributes, relationships, and properties. It provides a flexible and efficient way to target specific elements within a document, making it a crucial tool for web developers and designers.
-            </b></p>
-            <br>
-            <br>
-            <h1 style="font-size: 1.5rem;">Basic Syntax</h1>
-            <p><b>
-               The basic syntax of a CSS Query Selector is similar to the one used in JavaScript for selecting elements:
-            </b></p>
-            <br>
-            <div class="code-container">
-               <div class="card">
-                   <div class="tools">
-                     <div class="circle">
-                       <span class="red box"></span>
-                     </div>
-                     <div class="circle">
-                       <span class="yellow box"></span>
-                     </div>
-                     <div class="circle">
-                       <span class="green box"></span>
-                     </div>
-                   </div>
-                   <div class="card-content" >
-                     <p>
-                     selector { <br>
-                     ....property: value;<br>
-                     }
-                     </p>
-                   </div>
-               </div>
-            </div>
-         </section>
-      </section>
-      <section class="pages" id="language?=javascript">
-         <h1 id="html-title">JavaScript Tutorial:</h1>
-         <br>
-         <div class="code-container">
-            <div class="card">
-                <div class="tools">
-                  <div class="circle">
-                    <span class="red box"></span>
-                  </div>
-                  <div class="circle">
-                    <span class="yellow box"></span>
-                  </div>
-                  <div class="circle">
-                    <span class="green box"></span>
-                  </div>
-                </div>
-                <div class="card-content" >
-                  <p>Hello</p>
-                </div>
-            </div>
-         </div>
-      </section>
-   </body>
+            practices in web development.
+        </p>
+        <form>
+            <a href="#page?=Tutorial"><input id="learn" type="button" value="Learn now"></a>
+            <a href="https://github.com/IzanamiiDevv?tab=repositories"><input id="more" type="button" value="More"></a>
+        </form>
+        <img id="side-icon" src="./assets/mainIconsdark.svg" alt="No Image">
+    </div>
+</body>
 </html>
