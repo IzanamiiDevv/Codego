@@ -29,7 +29,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -40,8 +40,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(32, 10, 28, 0.5);
-    filter: blur(10px);
+    background-color: rgba(32, 10, 28, 1);
+    filter: blur(50px);
     z-index: -2;
 }
 
@@ -65,7 +65,7 @@ body {
     overflow: hidden;
 }
 
-#title,
+.title,
 #subtitle,
 form {
     position: relative;
@@ -83,6 +83,7 @@ form input {
     border-style: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0px 10px 10px rgb(68, 2, 143,0.5);
 }
 
 input {
@@ -119,4 +120,17 @@ form {
     right: 5vw;
     width: 97.5;
     height: 97.5%;
+}
+
+.high {
+    background: linear-gradient(45deg, #6103a0, #2f94d8);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
+
+#tagline {
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+    padding-top: 5px;
 }
