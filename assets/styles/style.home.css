@@ -134,3 +134,8 @@ form {
     font-size: 3.5rem;
     padding-top: 5px;
 }
+
+#more {
+    background-color: #0d0825;
+    color: whitesmoke;
+}
