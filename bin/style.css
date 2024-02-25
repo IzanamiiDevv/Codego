@@ -6,16 +6,24 @@
 }
 
 body {
-    background-image: url('../assets/background.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #040015;
+    margin: 0;
+}
+
+#blackhole {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: -35vh;
+    left: 0;
+    z-index: -1;
 }
 
 .nav-bar {
     height: 75px;
-    background-color: #2c2a2a;
-    position: absolute;
-    z-index: 1000;
+    position: relative;
+    z-index: 10;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -23,6 +31,18 @@ body {
     padding: 0 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     color: white;
+}
+
+.nav-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 10, 28, 0.5);
+    filter: blur(10px);
+    z-index: -2;
 }
 
 .logo img {
@@ -37,38 +57,26 @@ body {
     font-size: 16px;
 }
 
-.homepage{
-  padding-top: calc(7.5rem + 20vh);
-  color: whitesmoke;
-  position: relative;
-  height: 100vh;
+.homepage {
+    padding-top: 150px;
+    color: whitesmoke;
+    position: relative;
+    height: calc(100vh - 150px);
+    overflow: hidden;
 }
 
-.pages{
-  color: whitesmoke;
-  height: 100vh;
-  padding-top: calc(5rem + 15vh);
+#title,
+#subtitle,
+form {
+    position: relative;
+    padding-left: 10%;
+    padding-top: 50px;
+    font-size: 2rem;
 }
 
-#title, #subtitle , form{
-  position: relative;
-  padding-left: 10%;
-  padding-top: 50px;
-  font-size: 2rem;
-}
-
-#subtitle{
-  font-size: medium;
-  padding-top: 0;
-}
-
-#home-img{
-  position: absolute;
-  left: 50%;
-  height: 500px;
-  width: 500px;
-  top: 20vh;
-  display: inline-block;
+#subtitle {
+    font-size: medium;
+    padding-top: 0;
 }
 
 form input {
@@ -81,12 +89,13 @@ input {
     width: 5rem;
 }
 
-form{
+form {
     padding-top: 10px;
 }
 
-#learn{
-    background-color: rgb(184, 96, 184);
+#learn {
+    background-color: rgb(175, 78, 175);
+    color: antiquewhite;
 }
 
 .logo {
@@ -101,4 +110,11 @@ form{
 
 .logo h1 {
     margin: 0;
+}
+
+#side-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
