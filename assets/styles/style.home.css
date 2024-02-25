@@ -14,8 +14,8 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: fixed;
-    top: -35vh;
+    position: absolute;
+    top: -40vh;
     left: 0;
     z-index: -1;
 }
@@ -82,6 +82,7 @@ form {
 form input {
     border-style: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 input {
@@ -94,7 +95,7 @@ form {
 }
 
 #learn {
-    background-color: rgb(175, 78, 175);
+    background-color: rgb(32, 14, 131);
     color: antiquewhite;
 }
 
@@ -114,7 +115,8 @@ form {
 
 #side-icon {
     position: absolute;
-    top: 0;
     bottom: 0;
-    right: 0;
+    right: 5vw;
+    width: 97.5;
+    height: 97.5%;
 }
