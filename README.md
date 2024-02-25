@@ -1,4 +1,4 @@
-<div style="max-width: 1200px; margin: 0 auto; overflow: hidden;">
+<div style="max-width: 1200px; margin: 0 auto; overflow: hidden; align:center;">
     <div style="float: left; width: 50%;">
         <h1>Welcome to Codego</h1>
         <p>
