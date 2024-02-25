@@ -114,12 +114,19 @@ form {
     margin: 0;
 }
 
-#side-icon {
+.side-icon {
     position: absolute;
     bottom: 0;
-    right: 5vw;
+    right: 4vw;
     width: 97.5;
     height: 97.5%;
+}
+
+#aastronout {
+    right: calc(1vw + 30px);
+    bottom: -20px;
+    width: auto;
+    height: 400px;
 }
 
 .high {
