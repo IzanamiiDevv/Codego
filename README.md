@@ -1,4 +1,6 @@
-<div style="width=auto;hieght=5vh;background-color:blue;"></div>
+<div align="center">
+     <h1>Codego</h1>
+</div>
 
 
 
