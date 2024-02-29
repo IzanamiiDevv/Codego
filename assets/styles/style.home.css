@@ -57,14 +57,9 @@ body {
     font-size: 16px;
 }
 
-.nav-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
 
-.nav-links li {
+
+.nav-links div {
     margin: 0 10px;
 }
 
@@ -81,7 +76,7 @@ body {
     box-shadow: 0px 10px 10px rgb(68, 2, 143,0.5);
 }
 
-.nav-links li:hover {
+.nav-links div:hover {
     background-color: #0d0825;
     border-radius: 5px;
     width: auto;
@@ -146,9 +141,33 @@ form {
     margin-right: 10px;
 }
 
-.logo h1 {
+.logo h1,
+.logo a {
     margin: 0;
 }
+
+.nav-links {
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 
 .side-icon {
     position: absolute;
