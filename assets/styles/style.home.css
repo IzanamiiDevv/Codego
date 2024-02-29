@@ -167,7 +167,6 @@ form {
 
 .high {
     background: linear-gradient(45deg, #6103a0, #2f94d8);
-    -webkit-background-clip: text;
     color: transparent;
     background-clip: text;
 }
