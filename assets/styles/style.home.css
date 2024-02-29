@@ -74,6 +74,21 @@ body {
     font-size: 16px;
 }
 
+.nav-links a:hover {
+    background: linear-gradient(45deg, #6103a0, #2f94d8);
+    color: transparent;
+    background-clip: text;
+    box-shadow: 0px 10px 10px rgb(68, 2, 143,0.5);
+}
+
+.nav-links li:hover {
+    background-color: #0d0825;
+    border-radius: 5px;
+    width: auto;
+    height: auto ;
+    box-shadow: 0px 10px 10px rgb(68, 2, 143,0.5);
+}
+
 .icon {
     background-color: aliceblue;
 }
