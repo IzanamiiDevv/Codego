@@ -1,6 +1,6 @@
 Web Development Documentation Community Code of Conduct
 
-**Version 1.0 | [Date]**
+**Version 2.0 | 3/1/2024**
 
 ### Purpose
 
