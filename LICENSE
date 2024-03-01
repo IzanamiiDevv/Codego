@@ -1,36 +1,21 @@
-Web Development Basics Documentation License
+MIT License
 
-Version 1.0, 3/1/2024
+Copyright (c) 2024 izanami
 
-1. License Grant
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Subject to the terms and conditions of this License, [Your Name] ("Licensor") hereby grants you, the user ("Licensee"), a non-exclusive, worldwide, royalty-free license to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the documentation provided in connection with the webpage titled "Web Development Basics Documentation" (the "Documentation").
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2. Restrictions
-
-a. Licensee must include the following copyright notice in all copies or substantial portions of the Documentation:
-   "Copyright © 2024 Izanamii"
-
-b. Licensee may not use the Documentation for any commercial purposes without prior written consent from Licensor.
-
-c. The Documentation is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
-
-3. Distribution
-
-Licensee may distribute the Documentation, provided that any such distribution includes a prominent notice that the Documentation is derived from or based on the original Documentation by Licensor.
-
-4. Modification
-
-Licensee is allowed to modify the Documentation, but must clearly indicate that the Documentation has been modified and the date of modification.
-
-5. Termination
-
-This License is effective until terminated. Licensor may terminate this License at any time if Licensee fails to comply with any term or condition of this License. Upon termination, Licensee must destroy all copies of the Documentation in its possession.
-
-6. Governing Law
-
-This License shall be governed by and construed in accordance with the laws of [Your Jurisdiction].
-
-7. Contact Information
-
-For any inquiries regarding this License, please contact [Your Email Address].
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
