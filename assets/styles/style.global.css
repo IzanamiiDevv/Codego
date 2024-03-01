@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #040015;
+}
+
+.high {
+    background: linear-gradient(45deg, #6103a0, #2f94d8);
+    color: transparent;
+    background-clip: text;
+}
