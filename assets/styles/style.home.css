@@ -42,7 +42,7 @@ body {
     height: 100%;
     background-color: rgba(32, 10, 28, 1);
     filter: blur(50px);
-    z-index: -2;
+    z-index: -1;
 }
 
 .logo img {
@@ -50,39 +50,36 @@ body {
     margin-bottom: 0px;
 }
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 16px;
+.nav-links {
+    display: flex;
+    align-items: center;
 }
 
-
+.nav-links a, .nav-links div {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+}
 
 .nav-links div {
-    margin: 0 10px;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    transition: ease-in;
+    z-index: 10;
 }
 
 .nav-links a:hover {
     background: linear-gradient(45deg, #6103a0, #2f94d8);
     color: transparent;
     background-clip: text;
-    box-shadow: 0px 10px 10px rgb(68, 2, 143,0.5);
+    box-shadow: 0px 10px 10px rgba(68, 2, 143, 0.5);
 }
 
-.nav-links div:hover {
-    background-color: #0d0825;
-    border-radius: 5px;
-    width: auto;
-    height: auto ;
-    box-shadow: 0px 10px 10px rgb(68, 2, 143,0.5);
-}
+
 
 .icon {
     background-color: aliceblue;
@@ -110,16 +107,23 @@ form {
     padding-top: 0;
 }
 
-form input {
+form input,
+.nav-item {
     border-style: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
-    box-shadow: 0px 10px 10px rgb(68, 2, 143,0.5);
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    transition: ease-in;
 }
 
-input {
-    height: 2.5rem;
-    width: 5rem;
+form input:hover {
+    background: #0d0825;
+    box-shadow: 0 0 5px #6103a0,
+    0 0 20px #6103a0,
+    0 0 60px #6103a0,
+    0 0 150px #6103a0;
 }
 
 form {
@@ -199,4 +203,46 @@ form {
 #more {
     background-color: #0d0825;
     color: whitesmoke;
+}
+
+.nav-links div {
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    transition: ease-in;
+    z-index: 2;
+}
+
+.nav-links div:hover {
+    box-shadow: 0 0 5px #6103a0,
+                0 0 20px #6103a0,
+                0 0 60px #6103a0,
+                0 0 150px #6103a0;
+}
+
+.nav-links div {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    transition: ease-in;
+    z-index: 2;
+}
+
+
+.nav-links .nav-item img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.nav-links .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
 }
