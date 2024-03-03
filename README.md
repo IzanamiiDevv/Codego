@@ -3,6 +3,8 @@
      <p>A Tutorial Webpage About Web Development</p>
 </div>
 
+## update Every Friday!
+
 
 
 ## Tools Used in This Project
